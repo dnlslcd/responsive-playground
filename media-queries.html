@@ -42,8 +42,30 @@
         }
 
         /** Media query 1*/
-
+        @media screen and (min-width: 768px) {
+            nav ul {
+             justify-content:flex-end;
+             }
+             .nav-icon {
+                padding-inline: 5px;
+             }
+             .news {
+                column-count: 2;
+            }
+        }
         /** Media query 2*/
+        @media screen and (min-width: 992px) {
+            body {
+            font-size: 1.5rem;
+             }
+        }
+
+        /** Media query 3*/
+        @media print {
+            nav {
+                display: none;
+            }
+        }
     </style>
 
 </head>
